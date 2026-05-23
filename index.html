@@ -527,6 +527,7 @@
                             <label for="leaderRallyTime${leaderCount}" class="form-label">Rally Time:</label>
                             <select class="form-select" id="leaderRallyTime${leaderCount}" onchange="saveLeaderData()">
                                 <option value="1" ${rallyTime === '1' ? 'selected' : ''}>1 min</option>
+                                <option value="3" ${rallyTime === '3' ? 'selected' : ''}>3 min</option>
                                 <option value="5" ${rallyTime === '5' ? 'selected' : ''}>5 min</option>
                             </select>
                         </div>
